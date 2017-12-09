@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4177748D1FDB8D73007F0540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177748C1FDB8D73007F0540 /* AppDelegate.swift */; };
-		4177748F1FDB8D73007F0540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177748E1FDB8D73007F0540 /* ViewController.swift */; };
 		417774921FDB8D73007F0540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417774901FDB8D73007F0540 /* Main.storyboard */; };
 		417774951FDB8D73007F0540 /* CryptoDashboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 417774931FDB8D73007F0540 /* CryptoDashboard.xcdatamodeld */; };
 		417774971FDB8D73007F0540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417774961FDB8D73007F0540 /* Assets.xcassets */; };
 		4177749A1FDB8D73007F0540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417774981FDB8D73007F0540 /* LaunchScreen.storyboard */; };
+		417774A21FDB8E71007F0540 /* PortfolioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417774A11FDB8E71007F0540 /* PortfolioTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		417774891FDB8D73007F0540 /* CryptoDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177748C1FDB8D73007F0540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4177748E1FDB8D73007F0540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		417774911FDB8D73007F0540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		417774941FDB8D73007F0540 /* CryptoDashboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoDashboard.xcdatamodel; sourceTree = "<group>"; };
 		417774961FDB8D73007F0540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417774991FDB8D73007F0540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4177749B1FDB8D74007F0540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417774A11FDB8E71007F0540 /* PortfolioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4177748C1FDB8D73007F0540 /* AppDelegate.swift */,
-				4177748E1FDB8D73007F0540 /* ViewController.swift */,
 				417774901FDB8D73007F0540 /* Main.storyboard */,
 				417774961FDB8D73007F0540 /* Assets.xcassets */,
 				417774981FDB8D73007F0540 /* LaunchScreen.storyboard */,
 				4177749B1FDB8D74007F0540 /* Info.plist */,
 				417774931FDB8D73007F0540 /* CryptoDashboard.xcdatamodeld */,
+				417774A11FDB8E71007F0540 /* PortfolioTableViewController.swift */,
 			);
 			path = CryptoDashboard;
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4177748F1FDB8D73007F0540 /* ViewController.swift in Sources */,
 				417774951FDB8D73007F0540 /* CryptoDashboard.xcdatamodeld in Sources */,
+				417774A21FDB8E71007F0540 /* PortfolioTableViewController.swift in Sources */,
 				4177748D1FDB8D73007F0540 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
