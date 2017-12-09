@@ -10,6 +10,16 @@ import UIKit
 
 class PortfolioTableViewController: UITableViewController {
 
+    //This will eventually become part of the appropriate class
+    var portfolioCoins:[String] = []
+    
+    @IBAction func onAddCoin(_ sender: UIBarButtonItem) {
+        let newCoin = "Placeholder"
+        portfolioCoins.append(newCoin)
+        self.tableView.reloadData()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,32 +30,25 @@ class PortfolioTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return portfolioCoins.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CoinCell", for: indexPath) as! CoinTableViewCell
+        
+        cell.tickerLabel.text = portfolioCoins[indexPath.row]
+        
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

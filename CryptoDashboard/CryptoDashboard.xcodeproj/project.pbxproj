@@ -13,6 +13,7 @@
 		417774971FDB8D73007F0540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417774961FDB8D73007F0540 /* Assets.xcassets */; };
 		4177749A1FDB8D73007F0540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417774981FDB8D73007F0540 /* LaunchScreen.storyboard */; };
 		417774A21FDB8E71007F0540 /* PortfolioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417774A11FDB8E71007F0540 /* PortfolioTableViewController.swift */; };
+		417774A61FDB9D2F007F0540 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417774A51FDB9D2F007F0540 /* CoinTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		417774991FDB8D73007F0540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4177749B1FDB8D74007F0540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417774A11FDB8E71007F0540 /* PortfolioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewController.swift; sourceTree = "<group>"; };
+		417774A51FDB9D2F007F0540 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4177749B1FDB8D74007F0540 /* Info.plist */,
 				417774931FDB8D73007F0540 /* CryptoDashboard.xcdatamodeld */,
 				417774A11FDB8E71007F0540 /* PortfolioTableViewController.swift */,
+				417774A51FDB9D2F007F0540 /* CoinTableViewCell.swift */,
 			);
 			path = CryptoDashboard;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				417774951FDB8D73007F0540 /* CryptoDashboard.xcdatamodeld in Sources */,
 				417774A21FDB8E71007F0540 /* PortfolioTableViewController.swift in Sources */,
+				417774A61FDB9D2F007F0540 /* CoinTableViewCell.swift in Sources */,
 				4177748D1FDB8D73007F0540 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
